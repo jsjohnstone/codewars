@@ -1,9 +1,9 @@
-name: Pylint
+name: Kata Indexer
 
 on: [push]
 
 jobs:
-  build:
+  generate-kata:
 
     runs-on: ubuntu-latest
 
@@ -11,7 +11,24 @@ jobs:
     - uses: actions/checkout@v2
     - name: Generate index and push back to repo
       run: |
-        echo "Test push commit to the remote in the workflow" >> README.md
+        cp docs/README.template ./README.md
+        PYFILES=$(find * -type f -name "*.py")
+        echo $PYFILES
+        for f in $PYFILES
+        do
+          DESC=$(sed -n '1p' < $f | cut -c 3-)
+          URL=$(sed -n '2p' < $f | cut -c 3-)
+          TITLE=${f%.py}
+
+          if [ -n "$DESC" ] && [ -n "$URL" ]
+          then
+            echo "- $TITLE - [$DESC](https://www.github.com/jsjohnstone/daily-codewars/$f) \[[kata]($URL)\]" >> README.md
+          fi
+
+          unset DESC
+          unset URL
+
+        done
 
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
