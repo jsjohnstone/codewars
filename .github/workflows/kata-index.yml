@@ -22,7 +22,7 @@ jobs:
 
           if [ -n "$DESC" ] && [ -n "$URL" ]
           then
-            echo "- $TITLE - [$DESC](https://www.github.com/jsjohnstone/daily-codewars/$f) \[[kata]($URL)\]" >> README.md
+            echo "- $TITLE - [$DESC](https://github.com/jsjohnstone/daily-codewars/blob/master/$f) \[[kata]($URL)\]" >> README.md
           fi
 
           unset DESC
