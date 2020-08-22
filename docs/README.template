@@ -1,4 +1,4 @@
-# daily-codewars 
+# codewars 
 ![](https://www.codewars.com/users/jsjohnstone/badges/large)
 
 # Summary
