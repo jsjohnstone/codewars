@@ -8,4 +8,5 @@ This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Ka
 - Python
 
 # Katas and Solutions
-This list is generated automatically by a [Github action](https://github.com/jsjohnstone/daily-codewars/blob/master/.github/workflows/kata-index.yml).- 2020-08-22 - [Convert string to camel case](https://www.github.com/jsjohnstone/daily-codewars/2020-08-22.py) \[[kata](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python)\]
+This list is generated automatically by a [Github action](https://github.com/jsjohnstone/daily-codewars/blob/master/.github/workflows/kata-index.yml).
+- 2020-08-22 - [Convert string to camel case](https://www.github.com/jsjohnstone/daily-codewars/2020-08-22.py) \[[kata](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python)\]
