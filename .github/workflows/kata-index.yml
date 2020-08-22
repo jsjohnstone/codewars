@@ -1,0 +1,22 @@
+name: Pylint
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate index and push back to repo
+      run: |
+        echo "Test push commit to the remote in the workflow" >> README.md
+
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add README.md
+        git commit -m "Automatically index katas and update README"
+        git push
+      
