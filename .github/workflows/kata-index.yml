@@ -12,7 +12,7 @@ jobs:
     - name: Generate index and push back to repo
       run: |
         cp docs/README.template ./README.md
-        PYFILES=$(find * -type f -name "*.py")
+        PYFILES=$(find * -type f -name "*.py" | sort -r)
         echo $PYFILES
         for f in $PYFILES
         do
