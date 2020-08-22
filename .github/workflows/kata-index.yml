@@ -3,7 +3,7 @@ name: Kata Indexer
 on: [push]
 
 jobs:
-  generate-kata:
+  generate-kata-index:
 
     runs-on: ubuntu-latest
 
