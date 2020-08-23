@@ -1,5 +1,5 @@
-# daily-codewars 
-![](https://www.codewars.com/users/jsjohnstone/badges/large)
+# codewars 
+[![](https://www.codewars.com/users/jsjohnstone/badges/large)](https://www.codewars.com/users/jsjohnstone)
 
 # Summary
 This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Kata_(programming)) from codewars.com. I try work through one a day. There's also a simple Github action that runs on the repo, generating an index with each push.
