@@ -1,4 +1,4 @@
-# codewars 
+# playground-codewars 
 [![](https://www.codewars.com/users/jsjohnstone/badges/large)](https://www.codewars.com/users/jsjohnstone)
 
 # Summary
