@@ -9,6 +9,7 @@ This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Ka
 
 # Katas and Solutions
 This list is generated automatically by a [Github action](https://github.com/jsjohnstone/daily-codewars/blob/master/.github/workflows/kata-index.yml).
+- 2020-08-26 - [Find the odd int](https://github.com/jsjohnstone/daily-codewars/blob/master/solutions/2020-08-26.py) \[[kata](https://www.codewars.com/kata/54da5a58ea159efa38000836/)\]
 - 2020-08-25 - [Sum of Digits / Digital Root](https://github.com/jsjohnstone/daily-codewars/blob/master/solutions/2020-08-25.py) \[[kata](https://www.codewars.com/kata/541c8630095125aba6000c00/)\]
 - 2020-08-24 - [Which are in?](https://github.com/jsjohnstone/daily-codewars/blob/master/solutions/2020-08-24.py) \[[kata](https://www.codewars.com/kata/550554fd08b86f84fe000a58/)\]
 - 2020-08-23 - [Where my anagrams at?](https://github.com/jsjohnstone/daily-codewars/blob/master/solutions/2020-08-23.py) \[[kata](https://www.codewars.com/kata/523a86aa4230ebb5420001e1/)\]
