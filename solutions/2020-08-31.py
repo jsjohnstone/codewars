@@ -15,10 +15,10 @@ def count_bits(n):
     count = 0
     
     # convert number to list of binary characters
-    bin = list("{0:b}".format(n))
+    binlist = list("{0:b}".format(n))
     
     # iterate through list, add each character (will be 1 or 0)
-    for char in bin: count += int(char)
+    for char in binlist: count += int(char)
         
     # return sum of 1s
     return count
