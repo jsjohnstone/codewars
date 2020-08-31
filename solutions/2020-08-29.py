@@ -1,4 +1,4 @@
-# Valid Parentheses (5 kyu)
+# Valid Parentheses
 # https://www.codewars.com/kata/52774a314c2333f0a7000688/
 #
 # Test.assert_equals(valid_parentheses("  ("),False)
