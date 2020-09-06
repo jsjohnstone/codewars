@@ -9,6 +9,7 @@ This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Ka
 
 # Katas and Solutions
 This list is generated automatically by a [Github action](https://github.com/jsjohnstone/codewars/blob/master/.github/workflows/kata-index.yml).
+- 2020-09-06 - [Replace with Alphabet Position](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-09-06.py) \[[kata](https://www.codewars.com/kata/546f922b54af40e1e90001da/)\]
 - 2020-09-05 - [Detect Pangram](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-09-05.py) \[[kata](https://www.codewars.com/kata/545cedaa9943f7fe7b000048)\]
 - 2020-08-31 - [Bit Counting](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-08-31.py) \[[kata](https://www.codewars.com/kata/526571aae218b8ee490006f4/)\]
 - 2020-08-29 - [Valid Parentheses](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-08-29.py) \[[kata](https://www.codewars.com/kata/52774a314c2333f0a7000688/)\]
