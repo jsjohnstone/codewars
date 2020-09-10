@@ -6,6 +6,8 @@ This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Ka
 
 # Languages
 - Python
+- Javascript
+- Java
 
 # Katas and Solutions
 This list is generated automatically by a [Github action](https://github.com/jsjohnstone/codewars/blob/master/.github/workflows/kata-index.yml).
