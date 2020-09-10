@@ -13,12 +13,12 @@ jobs:
       run: |
         cp docs/README.template ./README.md
         cd solutions
-        PYFILES=$(find * -type f -name "*.py" | sort -r)
-        for f in $PYFILES
+        FILES=$(find * -type f \( -iname \*.py -o -iname \*.js \))
+        for f in $FILES
         do
           DESC=$(sed -n '1p' < $f | cut -c 3-)
           URL=$(sed -n '2p' < $f | cut -c 3-)
-          TITLE=${f%.py}
+          TITLE=$(echo "$f" | cut -f 1 -d '.')
 
           if [ -n "$DESC" ] && [ -n "$URL" ]
           then
