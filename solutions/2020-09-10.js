@@ -1,13 +1,13 @@
-# TV Remote
-# https://www.codewars.com/kata/5a5032f4fd56cb958e00007a
-#
-# Test.assertEquals(tvRemote("does"), 16);
-# Test.assertEquals(tvRemote("your"), 23);
-# Test.assertEquals(tvRemote("solution"), 33);
-# Test.assertEquals(tvRemote("work"), 20);
-# Test.assertEquals(tvRemote("for"), 12);
-# Test.assertEquals(tvRemote("these"), 27);
-# Test.assertEquals(tvRemote("words"), 25);
+//TV Remote
+//https://www.codewars.com/kata/5a5032f4fd56cb958e00007a
+//
+// Test.assertEquals(tvRemote("does"), 16);
+// Test.assertEquals(tvRemote("your"), 23);
+// Test.assertEquals(tvRemote("solution"), 33);
+// Test.assertEquals(tvRemote("work"), 20);
+// Test.assertEquals(tvRemote("for"), 12);
+// Test.assertEquals(tvRemote("these"), 27);
+// Test.assertEquals(tvRemote("words"), 25);
 
 var tvRemote = function(word) {
 
