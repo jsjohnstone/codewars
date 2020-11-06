@@ -13,7 +13,7 @@ jobs:
       run: |
         cp docs/README.template ./README.md
         cd solutions
-        FILES=$(find * -type f \( -iname \*.py -o -iname \*.js \) | sort -r)
+        FILES=$(find * -type f \( -iname \*.py -o -iname \*.js -o -iname \*.cs \) | sort -r)
         for f in $FILES
         do
           DESC=$(sed -n '1p' < $f | cut -c 3-)
