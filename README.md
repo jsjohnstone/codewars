@@ -11,7 +11,8 @@ This repo contains my solutions to [code katas](https://en.wikipedia.org/wiki/Ka
 
 # Katas and Solutions
 This list is generated automatically by a [Github action](https://github.com/jsjohnstone/codewars/blob/master/.github/workflows/kata-index.yml).
-- 2020-11-06 - [First and Last Character](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-11-06.cs) \[[kata](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/csharp)\]
+- 2020-11-06_2 - [Sum of positive](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-11-06_2.cs) \[[kata](https://www.codewars.com/kata/5715eaedb436cf5606000381/train/csharp)\]
+- 2020-11-06_1 - [First and Last Character](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-11-06_1.cs) \[[kata](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/csharp)\]
 - 2020-09-11 - [Big Party](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-09-11.js) \[[kata](https://www.codewars.com/kata/59c4b77163b362cf5a000004)\]
 - 2020-09-10 - [TV Remote](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-09-10.js) \[[kata](https://www.codewars.com/kata/5a5032f4fd56cb958e00007a)\]
 - 2020-09-06 - [Replace with Alphabet Position](https://github.com/jsjohnstone/codewars/blob/master/solutions/2020-09-06.py) \[[kata](https://www.codewars.com/kata/546f922b54af40e1e90001da/)\]
